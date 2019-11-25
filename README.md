@@ -1,14 +1,14 @@
 
 # Basquiat_Style_GAN
+![A PIECE OF ART ! ](https://github.com/Kunch/Basquiat_Style_GAN/blob/master/image/result.PNG)
    The project is about using Deep Learning techniques to generate art work in the style of painter Jean-Michel Basquiat. The Generative Adversarial Network (GAN) technique allows us to obtain a first set of output with the Basquiat’s typical content (choice of colours, distribution of colours). This first output is far from satisfactory because it is limited by the constraints often faced by GANs. The resolution is inadequate, and the Basquiat’s style is absent. In order to overcome these constraints, we applied a super resolution algorithm and then created an artistic style transfer algorithm. The result is a new, original piece with satisfactory resolution and that displays the content and style typical of Basquiat’s art work. This is a novel approach in Deep Learning applied to paintings. Other approaches mix the work of multiple painters in the dataset and thus don’t need to capture the particular style of an artist. 
-
+![Each Process](https://github.com/Kunch/Basquiat_Style_GAN/blob/master/image/img.PNG)
 ----------------------------------------------------------
 The colab file is located here : <br /> https://drive.google.com/open?id=11aK1sfjuXd3WXtReqb7ICdFdpxjGT89a
 ----------------------------------------------------------
 --------------
 # |File system |
 --------------
-![Each Process](https://github.com/Kunch/Basquiat_Style_GAN/blob/master/image/img.png)
 - Data_Augmentation.py 
 This file takes 76 image-inputs from net scraping function. Then doing augmentation process inorder to get 523 images<br />
 	- input : Data1<br />
