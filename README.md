@@ -10,14 +10,13 @@ The colab file is located here : https://drive.google.com/open?id=11aK1sfjuXd3WX
 Data_Preprocessing
  
 - Data_Augmentation.py 
-This file takes 76 image-inputs from net scraping function. 
-Then doing augmentation process inorder to get 523 images
-	input : Data1
-	output : Data 2
+This file takes 76 image-inputs from net scraping function. Then doing augmentation process inorder to get 523 images<br />
+	input : Data1<br />
+	output : Data 2<br />
 - Resize.py and 
-The file reshapes multiple-size images from the Data2 into 500x420 Data3A
-	input : Data2
-	output : Data3A
+The file reshapes multiple-size images from the Data2 into 500x420 Data3A<br />
+	input : Data2<br />
+	output : Data3A<br />
 (1)Basquiat_GAN.ipynb
 The GAN method learns input from Data3A and generate around 500 images for Data4
 	input : Data3A/1
