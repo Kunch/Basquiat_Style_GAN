@@ -5,7 +5,7 @@
 The colab file is located here : <br /> https://drive.google.com/open?id=11aK1sfjuXd3WXtReqb7ICdFdpxjGT89a
 ----------------------------------------------------------
 --------------
-|File system |
+# |File system |
 --------------
 Data_Preprocessing
  
@@ -39,7 +39,7 @@ This process samples 5 images from the range of image number 450 to 500<br />
 	- input : Data6<br />
 	- output : Data7 // 1 image with 500x420 pixels<br />
 ----------------------------------------------------------
-#Credit 
+# Credit 
 
 - Data super resolution : 
 	<p>EnhanceNet
@@ -56,7 +56,7 @@ This process samples 5 images from the range of image number 450 to 500<br />
 	Stack overflow !!!
 	
 ---------------------------------------------------------
-****Additional****
+**** Additional ****
 -> The discriminator for the data _selection part could be choosen in the folder 'model'. The graph images are considered for the number of model.
    The number of model between 450-500 is reccommend
 -> The online colab source code  will be available until 2021. 
