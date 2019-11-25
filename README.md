@@ -23,13 +23,13 @@ The GAN method learns input from Data3A and generate around 500 images for Data4
 	output : Data4<br />
 (2)resize_and_superres.ipynb<br />
 This process samples 5 images from the range of image number 450 to 500<br />
-	<<resize part >> Resize the image to 512x512 pixels<br />
-	input : Data4<br />
-	output : Data4_resize<br />
-	<<super resolution part >> Highen th picture resolution by 10 iterations<br />
-	The file work in the enhancenet_pretrained folder.<br />
-	input : Data4_resize<br />
-	output : Data5 // 5 images with 500x420 pixels<br />
+	&ensp;<<resize part >> Resize the image to 512x512 pixels<br />
+	&ensp;input : Data4<br />
+	&ensp;output : Data4_resize<br />
+	&ensp;<<super resolution part >> Highen th picture resolution by 10 iterations<br />
+	&ensp;The file work in the enhancenet_pretrained folder.<br />
+	&ensp;input : Data4_resize<br />
+	&ensp;output : Data5 // 5 images with 500x420 pixels<br />
 (3)Artistic_Style.ipynb<br />
 	Generate the new image as a combination of each image from Data5 with 4 style image from Data1/Data1_Style<br />
 	input : Data5<br />
@@ -60,6 +60,7 @@ Buggy things :
    The number of model between 450-500 is reccommend
 -> The online colab source code  will be available until 2021. 
 
-Writer : Kunch Ringrod 58070501105
-         Augustin Morieux 62540460024
+Writer : 
+-Kunch Ringrod 58070501105
+-Augustin Morieux 62540460024
 Updated on 11/25/2019 11.00 pm.
