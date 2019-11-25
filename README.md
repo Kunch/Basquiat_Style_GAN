@@ -50,11 +50,8 @@ This process samples 5 images from the range of image number 450 to 500<br />
 	[link](https://webdav.tuebingen.mpg.de/pixel/enhancenet/?fbclid=IwAR1nttfTyG2pgpwHuo31qgDxIQEbB-MBFCV1k6ms23Arwz2Nbv8ZikY2x-E)
 - Artistic style transfer :
 	<p>Thanks to Mr. Harish Narayanan
-	Follow the original git here : [Github](https://github.com/hnarayanan/artistic-style-transfer/blob/master/notebooks/6_Artistic_style_transfer_with_a_repurposed_VGG_Net_16.ipynb)   </p>
-	
-- Buggy things :
-	Stack overflow !!!
-	
+	Follow the original git here :  </p> [Github](https://github.com/hnarayanan/artistic-style-transfer/blob/master/notebooks/6_Artistic_style_transfer_with_a_repurposed_VGG_Net_16.ipynb)  
+
 ---------------------------------------------------------
 **** Additional ****
 -> The discriminator for the data _selection part could be choosen in the folder 'model'. The graph images are considered for the number of model.
