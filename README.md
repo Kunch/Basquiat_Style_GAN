@@ -54,9 +54,8 @@ This process samples 5 images from the range of image number 450 to 500<br />
 
 ---------------------------------------------------------
 **** Additional ****
--> The discriminator for the data _selection part could be choosen in the folder 'model'. The graph images are considered for the number of model.
-   The number of model between 450-500 is reccommend
--> The online colab source code  will be available until 2021. 
+-- The discriminator for the data _selection part could be choosen in the folder 'model'. The graph images are considered for the number of model.The number of model between 450-500 is reccommend
+-- The online colab source code  will be available until 2021. 
 
 Writer : 
 - Kunch Ringrod 58070501105
