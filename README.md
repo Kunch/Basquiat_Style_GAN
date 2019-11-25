@@ -8,7 +8,7 @@ The colab file is located here : <br /> https://drive.google.com/open?id=11aK1sf
 --------------
 # |File system |
 --------------
-![Equalizer](https://drive.google.com/file/d/14IFIc-_uZpJNCSvPFbLU-8GWB-z4GC9r/view?usp=sharing)
+![Each Process](https://github.com/Kunch/Basquiat_Style_GAN/blob/master/image/img.)
 - Data_Augmentation.py 
 This file takes 76 image-inputs from net scraping function. Then doing augmentation process inorder to get 523 images<br />
 	- input : Data1<br />
