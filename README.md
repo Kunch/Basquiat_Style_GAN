@@ -8,7 +8,7 @@ The colab file is located here : <br /> https://drive.google.com/open?id=11aK1sf
 --------------
 # |File system |
 --------------
-![Process of the file](https://drive.google.com/open?id=1SjOn_FdTU6NbAYvWyJ9wxsW6ij1yOc17)
+<img src="https://drive.google.com/open?id=1SjOn_FdTU6NbAYvWyJ9wxsW6ij1yOc17">
 - Data_Augmentation.py 
 This file takes 76 image-inputs from net scraping function. Then doing augmentation process inorder to get 523 images<br />
 	- input : Data1<br />
