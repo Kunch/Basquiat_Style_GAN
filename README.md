@@ -60,5 +60,6 @@ This process samples 5 images from the range of image number 450 to 500<br />
 Writer : 
 - Kunch Ringrod 58070501105
 - Augustin Morieux 62540460024 <br />
+King Mongkut's University of Technology Thonburi (Thailand) <br />
 Updated on 11/25/2019 11.00 pm.
  
