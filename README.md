@@ -17,28 +17,27 @@ This file takes 76 image-inputs from net scraping function. Then doing augmentat
 The file reshapes multiple-size images from the Data2 into 500x420 Data3A<br />
 	input : Data2<br />
 	output : Data3A<br />
-(1)Basquiat_GAN.ipynb
-The GAN method learns input from Data3A and generate around 500 images for Data4
-	input : Data3A/1
-	output : Data4
-(2)resize_and_superres.ipynb
-This process samples 5 images from the range of image number 450 to 500
-	<<resize part >> Resize the image to 512x512 pixels
-	input : Data4
-	output : Data4_resize
-	<<super resolution part >> Highen th picture resolution by 10 iterations
-	The file work in the enhancenet_pretrained folder.
-	input : Data4_resize
-	output : Data5 // 5 images with 500x420 pixels
-(3)Artistic_Style.ipynb
-	Generate the new image as a combination of each image from Data5 with 4 style image from Data1/Data1_Style
-	input : Data5
-	output : Data6 // 20 images with 500x420 pixels
-(4)Data_Selection_with_GANDis.ipynb
-	This file use the discriminator model, which trained from (1)Basquiat_GAN.ipynb of 450 to 500 iterations, 
-	to choose the most Basquiat-liked picture.
-	input : Data6
-	output : Data7 // 1 image with 500x420 pixels
+(1)Basquiat_GAN.ipynb<br />
+The GAN method learns input from Data3A and generate around 500 images for Data4<br />
+	input : Data3A/1<br />
+	output : Data4<br />
+(2)resize_and_superres.ipynb<br />
+This process samples 5 images from the range of image number 450 to 500<br />
+	<<resize part >> Resize the image to 512x512 pixels<br />
+	input : Data4<br />
+	output : Data4_resize<br />
+	<<super resolution part >> Highen th picture resolution by 10 iterations<br />
+	The file work in the enhancenet_pretrained folder.<br />
+	input : Data4_resize<br />
+	output : Data5 // 5 images with 500x420 pixels<br />
+(3)Artistic_Style.ipynb<br />
+	Generate the new image as a combination of each image from Data5 with 4 style image from Data1/Data1_Style<br />
+	input : Data5<br />
+	output : Data6 // 20 images with 500x420 pixels <br />
+(4)Data_Selection_with_GANDis.ipynb<br />
+	This file use the discriminator model, which trained from (1)Basquiat_GAN.ipynb of 450 to 500 iterations, to choose the most Basquiat-liked picture.<br />
+	input : Data6<br />
+	output : Data7 // 1 image with 500x420 pixels<br />
 ----------------------------------------------------------
 Credit 
 
